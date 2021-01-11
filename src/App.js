@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import background from './background.png';
 
 class App extends React.Component {
   
@@ -24,6 +25,8 @@ class App extends React.Component {
       </form>
       <p>By clicking here you are agreeing to our terms and conditions </p>
     </div>
+    <img src={background} id="background" alt="background" />
+
     </div>
   );
   }
