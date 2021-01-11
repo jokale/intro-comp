@@ -7,7 +7,7 @@ class App extends React.Component {
   render(){
     return (
     <div className="App">
-    <h1>Learn to code by <br></br> watching others</h1>
+    <h1 id="h1">Learn to code by <br></br> watching others</h1>
     <p>See how other experienced developers solve problems in real time.</p>
     <p>Watching scripted tutorials is great, but understanding how</p>
     <p>developers think is invaluable.</p>
