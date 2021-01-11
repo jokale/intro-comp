@@ -37,11 +37,16 @@
   }
 }
 
+/* background */
 
 html {
   background-color: hsl(0, 100%, 74%);
 }
 
+img#background {
+  position: fixed; top: 0px; left: 20px;
+  z-index: -1;
+}
 /* text */
 
 h1,h2,h3,h4,h5,h6,p {
