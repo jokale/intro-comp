@@ -18,10 +18,11 @@ class App extends React.Component {
 
     <div id="form">
       <form>
-        <input placeholder="First Name"></input>
-        <input placeholder="Last Name"></input>
-        <input placeholder="Email Address"></input>
-        <input  type="password"placeholder="Password"></input>
+        <input placeholder="   First Name"></input><br></br>
+        <br></br> <input placeholder="    Last Name"></input><br></br>
+        <br></br><input placeholder="   Email Address"></input><br></br>
+        <br></br> <input  type="password"placeholder="   Password"></input><br></br>
+       <br></br> <button type="submit">CLAIM YOUR FREE TRIAL</button>
       </form>
       <p>By clicking here you are agreeing to our terms and conditions </p>
     </div>
