@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* text */
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+
+}
