@@ -70,3 +70,19 @@ h1#h1{
   font-size: xx-large;
   position: fixed; left: 150px; top: 290px;
 }
+
+p#main-p {
+  position: fixed; left: 150px; top: 420px;
+  font-weight: 500;
+}
+
+
+p#main-p1 {
+  position: fixed; left: 150px; top: 450px;
+  font-weight: 500;
+}
+
+p#main-p2 {
+  position: fixed; left: 150px; top: 480px;
+  font-weight: 500;
+}

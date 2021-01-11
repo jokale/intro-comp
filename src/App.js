@@ -8,9 +8,9 @@ class App extends React.Component {
     return (
     <div className="App">
     <h1 id="h1">Learn to code by <br></br> watching others</h1>
-    <p>See how other experienced developers solve problems in real time.</p>
-    <p>Watching scripted tutorials is great, but understanding how</p>
-    <p>developers think is invaluable.</p>
+    <p id="main-p">See how other experienced developers solve problems in real time.</p>
+    <p id="main-p1"> Watching scripted tutorials is great, but understanding how</p>
+    <p id="main-p2">developers think is invaluable.</p>
     <div id="purple">
       <p>Try it for 7 days</p>
       <p>then $20/mo. thereafter</p>
