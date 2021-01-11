@@ -38,10 +38,15 @@
 }
 
 
+html {
+  background-color: hsl(0, 100%, 74%);
+}
+
 /* text */
 
 h1,h2,h3,h4,h5,h6,p {
   font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
 
 }
 
