@@ -12,8 +12,8 @@ class App extends React.Component {
     <p id="main-p1"> Watching scripted tutorials is great, but understanding how</p>
     <p id="main-p2">developers think is invaluable.</p>
     <div id="purple">
-      <p>Try it for 7 days</p>
-      <p>then $20/mo. thereafter</p>
+      <p id="purple1">Try it for 7 days</p>
+      <p id="purple2">then $20/mo. thereafter</p>
     </div>
 
     <div id="form">

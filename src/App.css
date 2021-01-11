@@ -121,3 +121,29 @@ button {
   font-size: 16px;
   border: none;
 }
+
+
+ /* purple box  */
+
+div#purple {
+  background-color: hsl(248, 32%, 49%);
+  width: 580px;
+  height: 57px;
+  padding: 2px;
+  position: fixed; right: 150px; top: 47px;
+  border-radius: 8px;
+}
+
+p#purple1{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 2px;
+  position: absolute; left: 143px;
+}
+
+p#purple2{
+  font-weight: 400;
+  font-size: 16px;
+  padding: 2px;
+  position: absolute; left: 270px;
+}
