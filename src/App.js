@@ -24,7 +24,8 @@ class App extends React.Component {
         <br></br> <input  type="password"placeholder="   Password"></input><br></br>
        <br></br> <button type="submit">CLAIM YOUR FREE TRIAL</button>
       </form>
-      <p>By clicking here you are agreeing to our terms and conditions </p>
+      <p id="tc1">By clicking here you are agreeing to our </p>
+        <p id="tc2"> Terms and Services </p>
     </div>
     <img src={background} id="background" alt="background" />
 
