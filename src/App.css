@@ -110,10 +110,19 @@ input {
   border-style:solid;
   border-width:thin;
   font-weight: 700;
+  text-align: center;
 }
 input:focus{
   border-color: hsl(248, 32%, 49%);
 
+}
+
+::placeholder {
+  text-align: center;
+}
+
+input:placeholder-shown {
+text-align: start;
 }
 
 button {
