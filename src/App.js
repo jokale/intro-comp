@@ -3,8 +3,17 @@ import './App.css';
 import background from './background.png';
 
 class App extends React.Component {
+    
   
+  handleClick(e) {
+    e.preventDefault(); 
+      
+      console.log("hello I am click")
+    }
+
   render(){
+
+  
     return (
     <div className="App">
     <h1 id="h1">Learn to code by <br></br> watching others</h1>
@@ -22,7 +31,7 @@ class App extends React.Component {
         <br></br> <input placeholder="    Last Name"></input><br></br>
         <br></br><input placeholder="   Email Address"></input><br></br>
         <br></br> <input  type="password"placeholder="   Password"></input><br></br>
-       <br></br> <button type="submit">CLAIM YOUR FREE TRIAL</button>
+       <br></br> <button type="submit" onClick={this.handleClick.bind(this)}>CLAIM YOUR FREE TRIAL</button>
       </form>
       <p id="tc1">By clicking here you are agreeing to our </p>
         <p id="tc2"> Terms and Services </p>
