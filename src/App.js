@@ -6,9 +6,14 @@ class App extends React.Component {
     
   
   handleClick(e) {
-    e.preventDefault(); 
-      
-      console.log("hello I am click")
+    e.preventDefault();
+    let input = document.getElementById("password").value;
+
+      if(input.length > 0)
+      console.log("hey thanks for signing up")
+      else {
+        console.log("please try again")
+      }
     }
 
   render(){
@@ -27,10 +32,10 @@ class App extends React.Component {
 
     <div id="form">
       <form>
-        <input placeholder="   First Name"></input><br></br>
-        <br></br> <input placeholder="    Last Name"></input><br></br>
-        <br></br><input placeholder="   Email Address"></input><br></br>
-        <br></br> <input  type="password"placeholder="   Password"></input><br></br>
+        <input  placeholder="   First Name"></input><br></br>
+        <br></br> <input  placeholder="    Last Name"></input><br></br>
+        <br></br><input  placeholder="   Email Address"></input><br></br>
+        <br></br> <input id="password"  type="password"placeholder="   Password"></input><br></br>
        <br></br> <button type="submit" onClick={this.handleClick.bind(this)}>CLAIM YOUR FREE TRIAL</button>
       </form>
       <p id="tc1">By clicking here you are agreeing to our </p>
